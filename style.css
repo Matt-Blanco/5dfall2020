@@ -7,8 +7,8 @@ body {
 #list {
     position: relative;
     left: 45%;
-    top: 30%;
     width: 500px;
+    top: 30%;
 }
 
 ul {
