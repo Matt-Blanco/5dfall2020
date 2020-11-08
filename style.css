@@ -24,6 +24,12 @@ li:hover {
     text-decoration: underline;
 }
 
+a {
+    color: black;
+    opacity: 80%;
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     opacity: 80%;
@@ -34,7 +40,7 @@ h1 {
     background-color: #ffb7b2;
     width: 450px;
     height: 15px;
-    top: -100px;
+    top: -150px;
     animation: moveRed 8s infinite alternate ease-in-out;
 }
 
@@ -68,7 +74,7 @@ h1 {
     position: relative;
     width: 350px;
     height: 15px;
-    top: -200px;
+    top: -250px;
     animation: moveGreen 7s infinite alternate ease-in-out;
 }
 
@@ -85,7 +91,7 @@ h1 {
     position: relative;
     width: 600px;
     height: 15px;
-    top: 400px;
+    top: 350px;
     animation: moveOrange 9s infinite alternate ease-in-out;
 }
 

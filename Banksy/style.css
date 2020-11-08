@@ -1,0 +1,129 @@
+body {
+    background-color: #F9EAC2;
+}
+
+#artImages {
+    position: relative;
+    padding-top: 1%;
+    width: 80%;
+    height: 65%;
+    left: 9%;
+}
+
+#Banksy {
+    position: relative;
+    margin-right: 10%;
+    left: 15%;
+    width: 28%;
+    border-radius: 10%;
+}
+
+#Jef {
+    position: relative;
+    left: 15%;
+    width: 28%;
+    border-radius: 10%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div#artImages p {
+    position: relative;
+    left: 9%;
+    font-size: 25;
+}
+
+#banksyLabel {
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+#jefLabel {
+    margin-top: -4.4%;
+    margin-left: 50%;
+}
+
+#text {
+    position: relative;
+    padding-top: 1%;
+    width: 80%;
+    text-align: center;
+    left: 9%;
+    font-size: 20;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    #artImages {
+        left: 0%;
+    }
+
+    #Banksy {
+        width: 40%;
+    }
+    
+    #Jef {
+        width: 40%;
+    }
+
+    div#artImages p {
+        left: 9%;
+        font-size: 20;
+    }
+    
+    #banksyLabel {
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    #jefLabel {
+        margin-top: -7%;
+        margin-left: 63%;
+    }
+
+    #text {
+        margin-top: -10%;
+        width: 80%;
+        text-align: center;
+        left: 9%;
+        font-size: 25;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        width: 520px;
+    }
+
+    #artImages {
+        left: -6%;
+    }
+
+    div#artImages p {
+        left: 9%;
+        font-size: 15;
+    }
+    
+    #banksyLabel {
+        margin-top: 0%;
+        margin-left: 8%;
+    }
+    
+    #jefLabel {
+        margin-top: -7.5%;
+        margin-left: 62%;
+    }
+
+    #text {
+        margin-top: -40%;
+        width: 70%;
+        text-align: center;
+        left: 8%;
+        font-size: 23;
+    }
+}

@@ -1,0 +1,110 @@
+.colorBox {
+    position: relative;
+    width: 100px;
+    height: 100px;
+	border-radius: 50%;
+	background: red;
+    transform-origin: 200% center; 
+    left: 50%;
+    top: 50px;
+}
+
+#red {
+    background: red;
+    z-index: 5;
+}
+
+#orange {
+    background: orange;
+    z-index: 4;
+    top: -50px;
+    transform-origin: center 300px; 
+    animation: rotateOrange 1s 1 alternate linear;
+    transform: rotate(60deg);
+}
+
+#yellow {
+    background: yellow;
+    z-index: 3;
+    top: -150px;
+    transform-origin: center 300px;
+    animation: rotateYellow 2s 1 alternate linear;
+    transform: rotate(120deg);
+}
+
+#green {
+    background: #0A0;
+    z-index: 2;
+    top: -250px;
+    transform-origin: center 300px;
+    animation: rotateGreen 3s 1 alternate linear;
+    transform: rotate(180deg);
+}
+
+#blue {
+    background: blue;
+    z-index: 1;
+    top: -350px;
+    transform-origin: center 300px;
+    animation: rotateBlue 4s 1 alternate linear;
+    transform: rotate(240deg);
+}
+
+#purple {
+    background: purple;
+    z-index: 0;
+    top: -450px;
+    transform-origin: center 300px;
+    animation: rotatePurple 5s 1 alternate linear;
+    transform: rotate(300deg);
+}
+
+h3 {
+    padding-left: 90px;
+    text-align: center;
+}
+
+@keyframes rotateOrange {
+    from{
+        transform: rotate(0deg);
+    }
+	to { 
+        transform: rotate(60deg); 
+    }
+}
+
+@keyframes rotateYellow {
+    from{
+        transform: rotate(0deg);
+    }
+	to { 
+        transform: rotate(120deg); 
+    }
+}
+
+@keyframes rotateGreen {
+    from{
+        transform: rotate(0deg);
+    }
+	to { 
+        transform: rotate(180deg); 
+    }
+}
+
+@keyframes rotateBlue {
+    from{
+        transform: rotate(0deg);
+    }
+	to { 
+        transform: rotate(240deg); 
+    }
+}
+
+@keyframes rotatePurple {
+    from{
+        transform: rotate(0deg);
+    }
+	to { 
+        transform: rotate(300deg); 
+    }
+}
