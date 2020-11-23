@@ -30,7 +30,7 @@
 #mouse>div {
     position: relative;
     top: -410px;
-    left: 900px;
+    left: 600px;
     width: 150px;
     height: 120px;
 }
@@ -43,7 +43,7 @@
     position: relative;
     z-index: 6;
     top: -980px;
-    left: 630px;
+    left: 330px;
     width: 270px;
     height: 205px;
     border-radius: 5%;
